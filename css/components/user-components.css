@@ -1,3 +1,6 @@
+.user-components{
+    justify-content: space-between;
+}
 .user-components,
 .user-components__column:first-child{
     display: flex;   
@@ -16,9 +19,20 @@
 .user-components__subtitle{
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, 0.5);
 }
 .user-components__avatar--xl{
     width: 80px;
     height: 80px;
+}
+.user-components__avatar--sm{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+.user-components__title--not-bold{
+    font-weight: 400;
+}
+.user-components__column:last-child{
+    color:rgba(0,0,0,0.5);
 }
