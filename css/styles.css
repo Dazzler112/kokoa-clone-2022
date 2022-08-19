@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&family=Open+Sans:wght@400;500&display=swap');
 @import "reset.css";
+@import "variables.css";
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -8,8 +9,8 @@
 @import "components/badge.css";
 /*Screens*/
 @import "screens/login.css";
-@import "variables.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body{
     color:#2e363e;

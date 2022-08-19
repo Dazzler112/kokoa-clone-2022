@@ -13,3 +13,15 @@
 .screen__icons span{
     margin-left: 25px; 
 }
+.screen-icons__cog{
+    position: relative;
+}
+.screen-icons__cog-dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: tomato;
+    left: -3px;
+    bottom: 22px;
+}
