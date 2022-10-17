@@ -25,3 +25,14 @@
     left: -3px;
     bottom: 22px;
 }
+.screen__icons .fa-cog:hover {
+    animation: rotatecog 1s linear infinite;
+}
+@keyframes rotatecog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
